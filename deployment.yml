@@ -8,4 +8,4 @@ jobs:
   schedule: 0 12 * * * # This example will run every day at 12:00pm
   steps:
      - name: daily_metrics
-       command: dbt run --models github__daily_metrics.sql
+       command: dbt run --models github__daily_metrics
